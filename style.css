@@ -5,6 +5,6 @@ ul {
 }
 
 li {
-    display: inline-block;
+    display: inline;
     width: 100%;
 }
