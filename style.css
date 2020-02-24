@@ -10,7 +10,7 @@ nav {
     display: inline;
 }
 
-ul {
+.nav-left, .nav-right{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -18,7 +18,7 @@ ul {
     display: inline;
 }
 
-ul li {
+.nav-left a, .nav-right a {
     display: inline;
     margin: 30px 40px;
 }
