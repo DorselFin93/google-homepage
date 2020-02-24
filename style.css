@@ -24,7 +24,12 @@ ul li {
 }
 
 .image {
-    margin: 400px;
+    margin: 100px;
+}
+
+.image img {
+    display: block;
+    margin: auto;
 }
 
 .navbar {
