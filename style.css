@@ -74,7 +74,7 @@ a {
 
 .footer-left, .footer-right {
     display: inline-block;
-    position: absolute: 
+    position: absolute; 
 }
 .footer-left a, .footer-right a {
     display: inline-block;
