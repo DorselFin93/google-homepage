@@ -15,12 +15,19 @@ nav {
     display: inline;
 }
 
+.nav-left {
+    left: 50px
+}
+
+.nav-right{
+    right: 50px
+}
+
 .nav-left, .nav-right{
-    list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 100%;
-    display: inline;
+    display: inline-block;
+    position: absolute;
 }
 
 .nav-left a, .nav-right a {
