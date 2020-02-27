@@ -57,7 +57,7 @@ a {
     margin: auto;
 }
 
-.google-search form{
+.google-search {
     text-align: center;
 }
 
@@ -72,6 +72,9 @@ a {
     bottom: 0;
 }
 
+.footer-left, .footer-right {
+    display: inline-block;
+}
 .footer-left a, .footer-right a {
     display: inline-block;
     padding-top: 20px;
