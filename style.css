@@ -80,10 +80,10 @@ a {
     padding-top: 20px;
 }
 
-.footer-left a {
-  left: 50px
+.footer-left, {
+    left: 50px;
 }
 
-.footer-right a {
+.footer-right: {
     right: 50px;
 }
