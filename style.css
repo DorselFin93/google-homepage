@@ -27,10 +27,15 @@ a {
     padding: 0;
 }
 
+.navbar li{
+    display: inline;
+}
+
 .navbar a {
     font-size: 11px;
     font-family: sans-serif;
     color: black;
+    display: block;
 }
 
 .main {
@@ -65,8 +70,17 @@ footer ul {
     list-style-type: none;
 }
 
-footer a {
+.footer li {
+    display: inline;
+}
+
+.footer a {
     font-size: 11px;
     font-family: sans-serif;
     color: black;
+    display: block;
+}
+
+.right {
+    float: right;
 }
