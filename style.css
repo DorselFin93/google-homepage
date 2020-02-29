@@ -21,27 +21,16 @@ a {
     display: inline;
 }
 
-.nav-left {
-    left: 50px;
-
-
-}
-
-.nav-right {
-    right: 50px;
-}
-
-.nav-left, .nav-right{
+.navbar ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    display: inline-block;
-    position: absolute;
 }
 
-.nav-left a, .nav-right a {
-    display: inline;
-    font-size: 12px;
-    text-decoration: none;
+.navbar a {
+    font-size: 11px;
+    font-family: sans-serif;
+    color: black;
 }
 
 .main {
@@ -72,19 +61,12 @@ a {
     bottom: 0;
 }
 
-.footer-left, .footer-right {
-    display: inline-block;
-    position: absolute; 
-}
-.footer-left a, .footer-right a {
-    display: inline-block;
-    padding-top: 20px;
+footer ul {
+    list-style-type: none;
 }
 
-.footer-left {
-    left: 50px;
-}
-
-.footer-right {
-    right: 50px;
+footer a {
+    font-size: 11px;
+    font-family: sans-serif;
+    color: black;
 }
