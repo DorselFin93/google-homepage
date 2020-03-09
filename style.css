@@ -54,6 +54,12 @@ a {
     text-align: center;
 }
 
+.google-search a {
+     background-color: #f2f2f2;
+     padding: 5px;
+     border: 1px;
+}
+
 
 .footer {
     margin-bottom: 0px;
