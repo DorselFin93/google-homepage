@@ -54,10 +54,25 @@ a {
     text-align: center;
 }
 
+.google-search {
+    
+}
+
 .google-search a {
      background-color: #f2f2f2;
      padding: 5px;
      border: 1px;
+}
+
+.google-search div {
+    margin: 25px;
+}
+
+.google-search input {
+    height: 30px;
+    width: 400px;
+    border-radius: 50px;
+    border: solid 1px;
 }
 
 
