@@ -68,26 +68,34 @@ a {
 }
 
 .search-bar {
+    margin: 25px 0 0 0;
     position: relative;
+    width: 439px;
+    display: inline-block;
+}
+
+.search-bar input {
+    height: 30px;
     width: 400px;
+    border-radius: 0 50px 50px 0;
+    border: solid 1px;
+    margin-left: 33px;
+    border-left: 0px;
 }
 
 .search-bar button {
   position: absolute;
-  position: top left;
-  height: 30px;
+  height: 34px;
+  width: 34px;
+  border: black solid 1px;
+  border-radius: 50px 0 0 50px;
+  border-right: 0px
     }
 
 #search-buttons {
     margin: 25px;
 }
 
-.search-bar input {
-    height: 30px;
-    width: 100%;
-    border-radius: 50px;
-    border: solid 1px;
-}
 
 
 .footer {
